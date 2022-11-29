@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    backdrop-filter: blur(16px); 
+    background-color: rgba(0, 0, 0, 0.034);
+}
+.image{
+    height: 60px;
+    width: 60px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+.direction{
+    display: flex;
+    margin-right: -250px;
+
+    
+}
+.direction a{
+    margin: 20px;
+    color: #62475D;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.social a{
+    color: white;
+    background-color:rgb(107,71,194);
+    padding: 10px;  
+    border-radius: 10px;
+    transition: 0.5s;
+     
+}
