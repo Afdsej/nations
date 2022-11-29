@@ -7,7 +7,7 @@ const Header = () => {
     return ( 
         <header className='head'>
             <div className='image'>
-                <a href="/"><img src="./images/ANCY - Copy.jpeg"  alt=""/></a>
+                <a href="/"><img src="./images/image12.jpeg"  alt=""/></a>
             </div>
             
             <div className='direction'>
