@@ -2,7 +2,7 @@ import './donate.css'
 const Donate = () => {
     return ( 
         <div className='donate'>
-            <h2><a href="/">JOIN US</a> IN SUPPORTING YOUNG PEOPLE. <a href="/">DONATE</a> TO ANCYPIF TODAY</h2>
+            <h2><a href="/">JOIN US</a> IN TRANSFORMING YOUNG PEOPLE. <a href="/">DONATE</a> TO ANCYPIF TODAY</h2>
         </div>
      );
 }
