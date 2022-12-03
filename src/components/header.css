@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 .positioning {
+=======
+header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    padding: 40px;
+>>>>>>> 216fdc6f71007b101b4e7b6c7e90e0abb60cedbf
     position: fixed;
     top: 0;
     z-index: 1;
     width: 100%;
+<<<<<<< HEAD
 }
 
 header {
@@ -21,12 +31,23 @@ header {
 }
 
 .logo img {
+=======
+    backdrop-filter: blur(16px); 
+    background-color: rgba(0, 0, 0, 0.034);
+}
+.image{
+    height: 60px;
+    width: 200px;
+}
+.image img{
+>>>>>>> 216fdc6f71007b101b4e7b6c7e90e0abb60cedbf
     width: 100%;
     height: 100%;
     object-fit: cover;
     border: 2px solid #62475D;
     border-radius: 25px;
 }
+<<<<<<< HEAD
 
 .Nav__links {
     display: flex;
@@ -67,4 +88,31 @@ header {
 .donate a {
     color: aliceblue;
     text-decoration: underline;
+=======
+.direction{
+    display: flex;
+    margin-right: -250px;
+
+    
+}
+.direction a{
+    margin: 20px;
+    color: #62475D;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.social a{
+    color: white;
+    background-color:rgb(107,71,194);
+    padding: 10px;  
+    border-radius: 10px;
+    transition: 0.5s;
+     
+>>>>>>> 216fdc6f71007b101b4e7b6c7e90e0abb60cedbf
 }
