@@ -1,0 +1,70 @@
+.positioning {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    backdrop-filter: blur(16px);
+    background-color: rgba(0, 0, 0, 0.034);
+    background-color: black;
+}
+
+.logo {
+    height: 60px;
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #62475D;
+    border-radius: 25px;
+}
+
+.Nav__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Nav__links a {
+    color: #62475D;
+    font-size: 15px;
+    font-style: oblique;
+
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social a {
+    color: white;
+    background-color: rgb(107, 71, 194);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.donate {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(107, 71, 194);
+    color: aliceblue;
+    align-items: center;
+}
+
+.donate a {
+    color: aliceblue;
+    text-decoration: underline;
+}
